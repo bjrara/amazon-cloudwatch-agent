@@ -43,6 +43,9 @@ var attributesRenamingForMetric = map[string]string{
 	attr.AWSRemoteResourceType:                 common.CWMetricAttributeRemoteResourceType,
 	attr.AWSRemoteDbUser:                       common.MetricAttributeRemoteDbUser,
 	attr.AWSRemoteResourceCfnPrimaryIdentifier: common.MetricAttributeRemoteResourceCfnPrimaryIdentifier,
+	attr.AWSRemoteResourceAccountId:            common.MetricAttributeRemoteResourceAccountId,
+	attr.AWSRemoteResourceAccountAccessKey:     common.MetricAttributeRemoteResourceAccountAccessKey,
+	attr.AWSRemoteResourceRegion:               common.MetricAttributeRemoteResourceRegion,
 	attr.AWSECSClusterName:                     common.MetricAttributeECSCluster,
 	attr.AWSECSTaskID:                          common.MetricAttributeECSTaskId,
 }
